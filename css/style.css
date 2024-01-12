@@ -14,7 +14,11 @@ body{
 /* ===============================header=========================== */
 
 .header {
-
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
 }
 
 .header__content {
@@ -22,7 +26,7 @@ body{
 }
 
 .header__top {
-
+    background-color: var(--main-bg-color);
 }
 
 .form-navigate {
@@ -106,7 +110,7 @@ body{
 /* ============================ main =========================*/
 
 .about-game {
-    padding: 60px 0;
+    padding: 200px 0 60px;
 }
 
 .about-game__content {
@@ -225,6 +229,10 @@ body{
 
     .main-title{
         font-size: 30px;
+    }
+
+    .about-game{
+        padding-top: 220px;
     }
 }
 
