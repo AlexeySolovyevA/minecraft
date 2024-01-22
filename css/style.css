@@ -169,10 +169,31 @@ body{
 }
 
 .slider__slide {
-    width: 500px;
+    width: 90%;
     height: 500px;
-    background-color: #804848;
-    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.slider__slide--first {
+    background-image: url(../img/surv1.jpg);
+}
+
+.slider__slide--second {
+    background-image: url(../img/surv2.png);
+}
+
+.slider__slide--third {
+    background-image: url(../img/surv3.jpg);
+}
+
+.slider__slide--forth {
+    background-image: url(../img/surv4.png);
+}
+
+.slider__slide--fifth {
+    background-image: url(../img/surv5.jpg);
 }
 
 .slider__description {
