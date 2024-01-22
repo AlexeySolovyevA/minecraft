@@ -151,7 +151,6 @@ body{
 }
 
 .section-slider__content{
-
 }
 
 .slider {
@@ -162,7 +161,6 @@ body{
 
 .slick-list{
     overflow: hidden;
-
 }
 
 .slick-track{
@@ -178,7 +176,6 @@ body{
 }
 
 .slider__description {
-
 }
 
 .slick-dots{
@@ -191,21 +188,22 @@ body{
     transform: translateY(50%);
     width: 50px;
     height: 50px;
-
+    transition: transform 0.5s;
 }
 
 .slider__arrow--left {
     left: -70px;
-    transform: translateY(50%) rotate(-180deg);
 }
-
 
 .slider__arrow--right {
     right: -70px;
 }
 
-
-
+@media(hover:hover){
+    .slider__arrow:hover{
+        transform: scale(0.8) translateY(50%);
+    }
+}
 /* ================================footer============================ */
 
 .footer {
