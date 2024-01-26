@@ -242,11 +242,11 @@ body{
 }
 
 .slider__arrow--left {
-    left: -70px;
+    left: -50px;
 }
 
 .slider__arrow--right {
-    right: -70px;
+    right: -50px;
 }
 
 @media(hover:hover){
@@ -344,8 +344,24 @@ body{
     .about-game{
         padding-top: 220px;
     }
+
+    .slider__arrow{
+        display: none !important;
+    }
+
+    .section-slider {
+        padding-top: 230px;
+        padding-bottom: 50px;
+    }
+    
+    .slider{
+        width: 100%;
+    }
 }
 
-@media (max-width: 375px){
-    /* ======footer====== */
+@media (max-width: 425px){
+    .slider__description {
+        font-size: 24px;
+    }
 }
+

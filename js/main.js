@@ -7,22 +7,17 @@ $('.slider').slick({
     prevArrow:
     `
     <button class="slider__arrow slider__arrow--left">
-    <svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M87.5 111L40.5 64" stroke="white" stroke-width="12" stroke-miterlimit="10" stroke-linecap="square"/>
-<path d="M40.5 64L87.5 17" stroke="white" stroke-width="12" stroke-miterlimit="10" stroke-linecap="square"/>
+    <svg width="306" height="306" viewBox="0 0 306 306" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M247.35 35.7L211.65 0L58.65 153L211.65 306L247.35 270.3L130.05 153L247.35 35.7Z" fill="white"/>
 </svg>
-
-
     </button>
     `,
     nextArrow: 
     `
     <button class="slider__arrow slider__arrow--right">
-    <svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M40.5 17L87.5 64" stroke="white" stroke-width="12" stroke-miterlimit="10" stroke-linecap="square"/>
-<path d="M87.5 64L40.5 111" stroke="white" stroke-width="12" stroke-miterlimit="10" stroke-linecap="square"/>
+    <svg width="306" height="306" viewBox="0 0 306 306" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M94.35 0L58.65 35.7L175.95 153L58.65 270.3L94.35 306L247.35 153L94.35 0Z" fill="white"/>
 </svg>
-
     </button>
     `,
 });
