@@ -174,29 +174,40 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 
 .slider__slide--first {
-    background-image: url(../img/surv1.jpg);
+    background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.3) 0.01%, rgba(18, 18, 21, 0.1) 100%), url(../img/surv1.jpg);
 }
 
 .slider__slide--second {
-    background-image: url(../img/surv2.png);
+    background-image:linear-gradient(180deg,rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.3) 0.01%, rgba(18, 18, 21, 0.1) 100%), url(../img/surv2.png);
 }
 
 .slider__slide--third {
-    background-image: url(../img/surv3.jpg);
+    background-image:linear-gradient(180deg,rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.3) 0.01%, rgba(18, 18, 21, 0.1) 100%), url(../img/surv3.jpg);
 }
 
 .slider__slide--forth {
-    background-image: url(../img/surv4.png);
+    background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.3) 0.01%, rgba(18, 18, 21, 0.1) 100%), url(../img/surv4.png);
 }
 
 .slider__slide--fifth {
-    background-image: url(../img/surv5.jpg);
+    background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.3) 0.01%, rgba(18, 18, 21, 0.1) 100%), url(../img/surv5.jpg);
 }
 
 .slider__description {
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center;
+    text-shadow: 2px 2px 3px #000;
 }
 
 .slick-dots{
