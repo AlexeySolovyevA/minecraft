@@ -3,6 +3,7 @@
 :root{
     --main-bg-color: black;
     --main-text-color: white;
+    --context-color: green;
 }
 
 body{
@@ -147,30 +148,44 @@ body{
 /* ===============================ressourses======================= */
 
 .ressourses {
+    padding-top: 200px;
 }
 
 .ressourses__content {
 }
 
 .list-cards {
+    width: 60%;
+    margin: 0 auto;
 }
 
 .list-cards__item {
+    padding: 50px 0;
 }
 
 .list-cards___wrapper-img {
+    margin-bottom: 20px;
 }
 
 .list-cards__wrapper-description {
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 40px;
 }
 
 .list-cards__text {
 }
 
 .list-cards__wrapper-link {
+    text-align: right;
 }
 
 .link-info {
+    background-color: var(--context-color);
+    color: var(--main-text-color);
+    padding: 10px 20px;
+    border-radius: 10px;
 }
 
 /* ===============================slider=========================== */
