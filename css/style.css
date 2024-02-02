@@ -168,7 +168,7 @@ body{
 }
 
 .list-cards__wrapper-description {
-    font-size: 1.5em;
+    font-size: 1.3em;
     text-align: center;
     line-height: 1.5;
     margin-bottom: 40px;
@@ -182,10 +182,22 @@ body{
 }
 
 .link-info {
+    display: inline-block;
     background-color: var(--context-color);
     color: var(--main-text-color);
     padding: 10px 20px;
     border-radius: 10px;
+    transition: transform 0.5s, background-color 0.5s;
+}
+
+.link-info:active{
+    background-color: #004b04;
+}
+
+@media(hover:hover){
+    .link-info:hover{
+        transform: scale(0.9);
+    }
 }
 
 /* ===============================slider=========================== */
