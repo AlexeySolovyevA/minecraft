@@ -413,11 +413,27 @@ body{
     .slider{
         width: 100%;
     }
+
+    .list-cards{
+        width: 80%;
+    }
+
+    .list-cards__wrapper-link {
+        text-align: center;
+    }
+
+    .link-info{
+        padding: 15px 30px;
+    }
 }
 
 @media (max-width: 425px){
     .slider__description {
         font-size: 24px;
+    }
+
+    .list-cards{
+        width: 100%;
     }
 }
 
